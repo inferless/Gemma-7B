@@ -4,7 +4,7 @@ import os
 
 class InferlessPythonModel:
     def initialize(self):
-        repo_id = "google/gemma-7b"
+        repo_id = "google/gemma-2b"
         model_store = f"/var/nfs-mount/common_llm/{repo_id}"
         os.makedirs(f"/var/nfs-mount/common_llm/{repo_id}", exist_ok=True)
         
