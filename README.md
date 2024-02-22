@@ -4,7 +4,7 @@ Check out [this tutorial](https://tutorials.inferless.com/deploy-codellama-70b-u
 
 ## TL;DR - Deploy  using Inferless:
 - Deployment of Deploy Gemma-7B model using [vLLM](https://github.com/vllm-project/vllm).
-- By using the vLLM, you can expect an average latency of 3.99 sec, generating an average of 33.18 tokens/sec where each token took 62.51 ms and an average cold start time of 16.62 sec using an A100 GPU(80GB).
+- By using the vLLM, you can expect an average latency of 3.99 sec, generating an average of 62.51 tokens/sec where each token took 16.01 ms and an average cold start time of 16.62 sec using an A100 GPU(80GB).
 - Dependencies defined in inferless-runtime-config.yaml.
 - GitHub/GitLab template creation with app.py and inferless-runtime-config.yaml.
 - Model class in app.py with initialize, infer, and finalize functions.
