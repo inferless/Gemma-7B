@@ -14,7 +14,7 @@ class InferlessPythonModel:
                     token="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",
                     ignore_patterns=["*.gguf"])
         self.sampling_params = SamplingParams(temperature=0.7, top_p=0.95,max_tokens=256)
-        self.llm = LLM(model=model_store,gpu_memory_utilization=0.9)
+        self.llm = LLM(model=model_store,gpu_memory_utilization=0.9,dtype="float16")
 
     def infer(self, inputs):
         prompts = inputs["prompt"]
