@@ -3,4 +3,4 @@ build:
   system_packages:
     - "libssl-dev"
   python_packages:
-    - "vllm"
+    - "vllm==0.3.2"
