@@ -29,6 +29,11 @@ Get started by downloading the config.yaml file and go to Inferless dashboard an
 
 Quickly add this as a Custom runtime.
 
+### Create a Volume  
+Get by going to Inferless dashboard and creating My Volume.
+
+Create with Name common_llm  
+
 ### Fork the Repository
 Get started by forking the repository. You can do this by clicking on the fork button in the top right corner of the repository page.
 
