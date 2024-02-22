@@ -93,7 +93,7 @@ curl --location '<your_inference_url>' \
     "inputs": [
       {
         "data": [
-          "def factorial(int n):"
+          "What is quantization?"
         ],
         "name": "prompt",
         "shape": [
