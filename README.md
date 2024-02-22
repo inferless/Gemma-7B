@@ -1,9 +1,9 @@
-# Tutorial - Deploy CodeLlama-70B using Inferless
+# Tutorial - Deploy Gemma-7B using Inferless
 
-Check out [this tutorial](https://tutorials.inferless.com/deploy-codellama-70b-using-inferless) which will guide you through the process of deploying a CodeLlama-70B model using Inferless.
+Check out [this tutorial](https://tutorials.inferless.com/deploy-codellama-70b-using-inferless) which will guide you through the process of deploying a Gemma-7B model using Inferless.
 
 ## TL;DR - Deploy  using Inferless:
-- Deployment of Deploy CodeLlama-70B model using [vLLM](https://github.com/vllm-project/vllm).
+- Deployment of Deploy Gemma-7B model using [vLLM](https://github.com/vllm-project/vllm).
 - By using the vLLM, you can expect an average latency of 6.67 sec, generating an average of 33.18 tokens/sec where each token took 30.13 ms and an average cold start time of 26.36 sec using an A100 GPU(80GB).
 - Dependencies defined in inferless-runtime-config.yaml.
 - GitHub/GitLab template creation with app.py and inferless-runtime-config.yaml.
